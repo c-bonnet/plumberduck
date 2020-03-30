@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_161" class="java.beans.XMLDecoder">
+ <object class="jeu_plumber_duck.model.Fenetre" id="Fenetre0">
+  <void property="arrivee">
+   <void method="add">
+    <object class="jeu_plumber_duck.model.Case" id="Case0">
+     <void property="abscisse">
+      <int>3</int>
+     </void>
+     <void property="haut">
+      <boolean>true</boolean>
+     </void>
+     <void property="ordonnee">
+      <int>3</int>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="depart">
+   <void method="add">
+    <object class="jeu_plumber_duck.model.Case" id="Case1">
+     <void property="connectee">
+      <boolean>true</boolean>
+     </void>
+     <void property="droite">
+      <boolean>true</boolean>
+     </void>
+     <void property="ordonnee">
+      <int>1</int>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="hauteur">
+   <int>5</int>
+  </void>
+  <void property="largeur">
+   <int>5</int>
+  </void>
+  <void property="matrixCase">
+   <array class="[Ljeu_plumber_duck.model.Case;" length="5">
+    <void index="0">
+     <array class="jeu_plumber_duck.model.Case" length="5">
+      <void index="0">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="1">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="2">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="3">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="4">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="jeu_plumber_duck.model.Case" length="5">
+      <void index="0">
+       <object idref="Case1"/>
+      </void>
+      <void index="1">
+       <object class="jeu_plumber_duck.model.Case">
+        <void property="abscisse">
+         <int>1</int>
+        </void>
+        <void property="connectee">
+         <boolean>true</boolean>
+        </void>
+        <void property="droite">
+         <boolean>true</boolean>
+        </void>
+        <void property="gauche">
+         <boolean>true</boolean>
+        </void>
+        <void property="ordonnee">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="jeu_plumber_duck.model.Case">
+        <void property="abscisse">
+         <int>2</int>
+        </void>
+        <void property="bas">
+         <boolean>true</boolean>
+        </void>
+        <void property="haut">
+         <boolean>true</boolean>
+        </void>
+        <void property="ordonnee">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="jeu_plumber_duck.model.Case">
+        <void property="abscisse">
+         <int>3</int>
+        </void>
+        <void property="bas">
+         <boolean>true</boolean>
+        </void>
+        <void property="droite">
+         <boolean>true</boolean>
+        </void>
+        <void property="ordonnee">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="jeu_plumber_duck.model.Case" length="5">
+      <void index="0">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="1">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="2">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="3">
+       <object class="jeu_plumber_duck.model.Case">
+        <void property="abscisse">
+         <int>3</int>
+        </void>
+        <void property="bas">
+         <boolean>true</boolean>
+        </void>
+        <void property="haut">
+         <boolean>true</boolean>
+        </void>
+        <void property="ordonnee">
+         <int>2</int>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="jeu_plumber_duck.model.Case" length="5">
+      <void index="0">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="1">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="2">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="3">
+       <object idref="Case0"/>
+      </void>
+      <void index="4">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="jeu_plumber_duck.model.Case" length="5">
+      <void index="0">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="1">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="2">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="3">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+      <void index="4">
+       <object class="jeu_plumber_duck.model.Case"/>
+      </void>
+     </array>
+    </void>
+   </array>
+  </void>
+ </object>
+</java>
